@@ -1,0 +1,18 @@
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\bin\Debug\calculator.exe.config
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\bin\Debug\calculator.exe
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\bin\Debug\calculator.pdb
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyReference.cache
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\obj\Debug\calculator.Form1.resources
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.Cache
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\obj\Debug\calculator.exe
+c:\users\евгений\documents\visual studio 2013\Projects\calculator\calculator\obj\Debug\calculator.pdb
+D:\учеба\calculator\calculator\bin\Debug\calculator.exe.config
+D:\учеба\calculator\calculator\obj\Debug\calculator.exe
+D:\учеба\calculator\calculator\obj\Debug\calculator.pdb
+D:\учеба\calculator\calculator\bin\Debug\calculator.exe
+D:\учеба\calculator\calculator\bin\Debug\calculator.pdb
+D:\учеба\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyReference.cache
+D:\учеба\calculator\calculator\obj\Debug\calculator.Form1.resources
+D:\учеба\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+D:\учеба\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.Cache
