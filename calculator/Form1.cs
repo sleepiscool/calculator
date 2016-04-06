@@ -142,7 +142,7 @@ namespace calculator
             Enable();
         }
 
-        public void compute()
+        public void Compute()
         {
             switch (_count)
             {
@@ -226,7 +226,7 @@ namespace calculator
 
         private void button12_Click(object sender, EventArgs e)
         {
-            compute();
+            Compute();
             label1.Text = "";
         }
 
