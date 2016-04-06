@@ -171,6 +171,7 @@
             this.button12.TabIndex = 11;
             this.button12.Text = "=";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -180,6 +181,7 @@
             this.button13.TabIndex = 12;
             this.button13.Text = "/";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -189,6 +191,7 @@
             this.button14.TabIndex = 13;
             this.button14.Text = "*";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -198,6 +201,7 @@
             this.button15.TabIndex = 14;
             this.button15.Text = "-";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -207,6 +211,7 @@
             this.button16.TabIndex = 15;
             this.button16.Text = "+";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -236,6 +241,7 @@
             this.button19.TabIndex = 18;
             this.button19.Text = "<-";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -245,6 +251,7 @@
             this.button20.TabIndex = 19;
             this.button20.Text = "C";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
@@ -254,6 +261,7 @@
             this.button21.TabIndex = 20;
             this.button21.Text = "mod";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // textBox1
             // 
@@ -302,6 +310,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

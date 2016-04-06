@@ -16,3 +16,12 @@ D:\учеба\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyRe
 D:\учеба\calculator\calculator\obj\Debug\calculator.Form1.resources
 D:\учеба\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
 D:\учеба\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.Cache
+D:\Github\calculator\calculator\bin\Debug\calculator.exe.config
+D:\Github\calculator\calculator\obj\Debug\calculator.exe
+D:\Github\calculator\calculator\obj\Debug\calculator.pdb
+D:\Github\calculator\calculator\bin\Debug\calculator.exe
+D:\Github\calculator\calculator\bin\Debug\calculator.pdb
+D:\Github\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyReference.cache
+D:\Github\calculator\calculator\obj\Debug\calculator.Form1.resources
+D:\Github\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+D:\Github\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.Cache

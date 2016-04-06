@@ -142,5 +142,120 @@ namespace calculator
             Enable();
         }
 
+        public void compute()
+        {
+            switch (_count)
+            {
+                case 1:
+                    _ans = _num + double.Parse(textBox1.Text);
+                    textBox1.Text = _ans.ToString();
+                    break;
+
+                case 2:
+                    _ans = _num - double.Parse(textBox1.Text);
+                    textBox1.Text = _ans.ToString();
+                    break;
+
+                case 3:
+                    _ans = _num * double.Parse(textBox1.Text);
+                    textBox1.Text = _ans.ToString();
+                    break;
+
+                case 4:
+                    _ans = _num / double.Parse(textBox1.Text);
+                    textBox1.Text = _ans.ToString();
+                    break;
+                case 5:
+                    _ans = _num % double.Parse(textBox1.Text);
+                    textBox1.Text = _ans.ToString();
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            if (_count != 0)
+                return;
+            _num = double.Parse(textBox1.Text);
+            textBox1.Clear();
+            textBox1.Focus();
+            _count = 1;
+            label1.Text = _num + "+";
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (_count != 0)
+                return;
+
+            _num = double.Parse(textBox1.Text);
+            textBox1.Clear();
+            textBox1.Focus();
+            _count = 2;
+            label1.Text = _num + "-";
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (_count != 0)
+                return;
+            _num = double.Parse(textBox1.Text);
+            textBox1.Clear();
+            textBox1.Focus();
+            _count = 3;
+            label1.Text = _num + "*";
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (_count != 0)
+                return;
+            _num = double.Parse(textBox1.Text);
+            textBox1.Clear();
+            textBox1.Focus();
+            _count = 4;
+            label1.Text = _num + "/";
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            compute();
+            label1.Text = "";
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            label1.ResetText();
+            textBox1.Text = "";
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            var lenght = textBox1.TextLength - 1;
+            var text = textBox1.Text;
+            textBox1.Clear();
+            for (var i = 0; i < lenght; i++)
+                textBox1.Text = textBox1.Text + text[i];
+
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            if (_count != 0)
+                return;
+
+            _num = double.Parse(textBox1.Text);
+            textBox1.Clear();
+            textBox1.Focus();
+            _count = 5;
+            label1.Text = _num + " mod ";
+        }
     }
 }
